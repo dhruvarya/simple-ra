@@ -1,0 +1,818 @@
+BufferManager::BufferManager
+ParseQuery::clear
+
+Reading New Command: 
+LOAD EMPLOYEE
+doCommand
+syntacticParse
+syntacticParseLOAD
+semanticParse
+semanticParseLOAD
+TableCatalogue::isTable
+executeLOAD
+Table::Table
+Table::load
+Table::extractColumnNames
+Table::blockify
+BufferManager::writePage EMPLOYEE 0
+Page::Page2
+Page::writePage
+Page::writePage end
+TableCatalogue::~insertTable
+ParseQuery::clear
+
+Reading New Command: 
+PRINT EMPLOYEE
+doCommand
+syntacticParse
+syntacticParsePRINT
+semanticParse
+semanticParsePRINT
+TableCatalogue::isTable
+executePRINT
+TableCatalogue::getTable
+Table::print
+Table::printRow
+Cursor::Cursor
+BufferManager::getPage EMPLOYEE 0
+BufferManager::inPool
+BufferManager::insertIntoPool
+Page::Page
+TableCatalogue::isTable
+TableCatalogue::getTable
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+ParseQuery::clear
+
+Reading New Command: 
+ALTER TABLE EMPLOYEE ADD COLUMN TEST
+doCommand
+syntacticParse
+syntacticParseALTER
+semanticParse
+semanticParseALTER
+TableCatalogue::isTable
+TableCatalogue::getTable
+Table::isColumn
+ParseQuery::clear
+
+Reading New Command: 
+ALTER TABLE EMPLOYEE ADD COLUMN TEST2
+doCommand
+syntacticParse
+syntacticParseALTER
+semanticParse
+semanticParseALTER
+TableCatalogue::isTable
+TableCatalogue::getTable
+Table::isColumn
+executeALTER
+TableCatalogue::getTable
+Table::Table
+Table::printRow
+Table::printRow
+Table::getCursor
+Cursor::Cursor
+BufferManager::getPage EMPLOYEE 0
+BufferManager::inPool
+BufferManager::getFromPool
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+TableCatalogue::getTable
+Table::getNext
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+Table::blockify
+BufferManager::writePage EMPLOYEE_tmp 0
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::deleteFromPool
+Table::~unload
+BufferManager::deleteFile
+BufferManager::deleteFile: Err
+Table::isPermanent
+BufferManager::deleteFile: Success
+ParseQuery::clear
+
+Reading New Command: 
+PRINT EMPLOYEE
+doCommand
+syntacticParse
+syntacticParsePRINT
+semanticParse
+semanticParsePRINT
+TableCatalogue::isTable
+executePRINT
+TableCatalogue::getTable
+Table::print
+Table::printRow
+Cursor::Cursor
+BufferManager::getPage EMPLOYEE 0
+BufferManager::inPool
+BufferManager::insertIntoPool
+Page::Page
+TableCatalogue::isTable
+TableCatalogue::getTable
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+ParseQuery::clear
+
+Reading New Command: 
+LOAD tmp
+doCommand
+syntacticParse
+syntacticParseLOAD
+semanticParse
+semanticParseLOAD
+TableCatalogue::isTable
+executeLOAD
+Table::Table
+Table::load
+Table::extractColumnNames
+Table::blockify
+BufferManager::writePage tmp 0
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 1
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 2
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 3
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 4
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 5
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 6
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 7
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 8
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 9
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 10
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 11
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 12
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 13
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 14
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 15
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 16
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 17
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 18
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 19
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 20
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 21
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 22
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 23
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 24
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 25
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 26
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 27
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 28
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 29
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 30
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 31
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 32
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 33
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 34
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 35
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 36
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 37
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 38
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 39
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 40
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 41
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 42
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 43
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 44
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 45
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 46
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 47
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 48
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 49
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 50
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 51
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 52
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 53
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 54
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 55
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 56
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 57
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 58
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 59
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 60
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 61
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 62
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 63
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 64
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 65
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 66
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 67
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 68
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 69
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 70
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 71
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 72
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 73
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 74
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 75
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 76
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 77
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 78
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 79
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 80
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 81
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 82
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 83
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 84
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 85
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 86
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 87
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 88
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 89
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 90
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 91
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 92
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 93
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 94
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 95
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 96
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 97
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 98
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 99
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 100
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 101
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 102
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 103
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 104
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 105
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 106
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 107
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 108
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 109
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 110
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 111
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 112
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 113
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 114
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 115
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 116
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 117
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 118
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 119
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 120
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 121
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 122
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 123
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 124
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 125
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 126
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 127
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 128
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 129
+Page::Page2
+Page::writePage
+Page::writePage end
+BufferManager::writePage tmp 130
+Page::Page2
+Page::writePage
+Page::writePage end
+TableCatalogue::~insertTable
+ParseQuery::clear
+
+Reading New Command: 
+PRINT tmp
+doCommand
+syntacticParse
+syntacticParsePRINT
+semanticParse
+semanticParsePRINT
+TableCatalogue::isTable
+executePRINT
+TableCatalogue::getTable
+Table::print
+Table::printRow
+Cursor::Cursor
+BufferManager::getPage tmp 0
+BufferManager::inPool
+BufferManager::insertIntoPool
+Page::Page
+TableCatalogue::isTable
+TableCatalogue::getTable
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+Cursor::geNext
+Page::getRow
+Table::printRow
+ParseQuery::clear
+
+Reading New Command: 
